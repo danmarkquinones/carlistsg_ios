@@ -1,10 +1,11 @@
 import {Dimensions} from 'react-native';
-import DeviceInfo from 'react-native-device-info';
+// import DeviceInfo from 'react-native-device-info';
 
 const IPHONE6_SCREEN_WIDTH = 375;
 const IPHONE6_SCREEN_HEIGHT = 667;
 
-export const isTablet = DeviceInfo.getDeviceType() !== 'Handset';
+// export const isTablet = DeviceInfo.getDeviceType() !== 'Handset';
+export const isTablet = true
 
 export const scaleWidth = width => {
   if (isTablet) {

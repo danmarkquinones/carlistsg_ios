@@ -16,7 +16,7 @@ import { useIsFocused } from '@react-navigation/core';
 import { logout } from '../../store/api_calls/authentication';
 // import PushNotification from "react-native-push-notification";
 // import LocalizedStrings from 'react-native-localization';
-import messaging from '@react-native-firebase/messaging'
+// import messaging from '@react-native-firebase/messaging'
 import { updateNotification } from '../../store/api_calls/user_api';
 
 // var localFile = require('../../languages/profileLocale.json')
@@ -41,10 +41,10 @@ const ProfileIndex = (props) => {
         if(isFocused || userConfig.language){
             // console.log(userConfig.userDetails)
 
-            messaging().getToken().then(token => {
-                console.log('token' , token)
-                setDeviceToken(token)
-            });
+            // messaging().getToken().then(token => {
+            //     console.log('token' , token)
+            //     setDeviceToken(token)
+            // });
 
             if(userConfig.isLoggedIn){
                 const infoArray = [
@@ -55,7 +55,7 @@ const ProfileIndex = (props) => {
                 setInformation(infoArray)
             }
 
-            onCreateChannel()
+            // onCreateChannel()
         }
     },[isFocused , userConfig.language])
 
