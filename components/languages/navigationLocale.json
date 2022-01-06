@@ -1,0 +1,20 @@
+{
+    "en" : {
+        "BottomTab":{
+            "Explore" : "Explore",
+            "PostAd" : "Post Ad",
+            "Favorites" : "Favorites",
+            "MyAds" : "My Ads",
+            "Profile" : "Profile"
+        }
+    },
+    "zh" : {
+        "BottomTab":{
+            "Explore" : "探索",
+            "PostAd" : "发布广告",
+            "Favorites" : "收藏夹",
+            "MyAds" : "我的广告",
+            "Profile" : "轮廓"
+        }
+    }
+}

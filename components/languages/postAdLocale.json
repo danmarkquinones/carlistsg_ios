@@ -1,0 +1,62 @@
+{
+  "en" : {
+      "CreateAdIndex":{
+          "Title" : " Got a car to sell?",
+          "Subtitle" : "Let us help you with the right product",
+          "CardTitle" : "Sell it on Carlist.SG" , 
+          "CardSubTitle" : "List your car on Carlist.sg and get direct inquiries from interested buyers",
+          "SellingPrice" : "Selling Price",
+          "SellingTime":"Selling Time",
+          "Convenience":"Convenience",
+          "PostAdBtn":"CREATE AD",
+          "FooterTxt": "To post more than one ad, ",
+          "ContactUs": "contact us",
+          "ViewingArea": "Preffered Viewing Area",
+          "Note": "note: (*) fields are compulsary to be filled up",
+          "BackBtn": "Back",
+          "NextBtn": "Next",
+          "Step2Title": "Package Options",
+          "Step2Subtitle": "Packages that we offer for your car advertisement:",
+          "Step3Title": "Car Details 1 of 3",
+          "Step3Subtitle": "note: (*) fields are compulsory to be filled up",
+          "Step4Title": "Car Details 2 of 3",
+          "Step4Subtitle": "note: (*) fields are compulsory to be filled up",
+          "Step5Title": "Car Details 3 of 3",
+          "Step5Subtitle": "note: (*) fields are compulsory to be filled up",
+          "Step6Title": "Upload Pictures",
+          "Step6Subtitle": "Upload requirements: You can upload upto 9 images. Total image file size should not exceed 6MB and it's dimension should not exceed (4800 x 3600)pixels.",
+          "Step8Title": "You are on the last step to create your ad.",
+          "ProceedBtn": "PROCEED"
+      }
+  },
+  "zh" : {
+      "CreateAdIndex":{
+          "Title" : "有车要卖吗？",
+          "Subtitle" : "让我们帮助您找到合适的产品",
+          "CardTitle"  : "出售 Carlist.SG" , 
+          "CardSubTitle" : "在 Carlist.sg 上列出您的汽车，并获得感兴趣的买家的直接查询",
+          "SellingPrice" : "切换到销售",
+          "SellingTime":"售价",
+          "Convenience":"方便",
+          "PostAdBtn":"创建广告",
+          "FooterTxt": "要发布多个广告，",
+          "ContactUs": "联系我们",
+          "ViewingArea": "预置观景区",
+          "Note": "注意：（*）字段必须填写",
+          "BackBtn": "返回",
+          "NextBtn": "下一个",
+          "Step2Title": "封装选项",
+          "Step2Subtitle": "我们为您的汽车广告提供的套餐：",
+          "Step3Title": "汽车详情 1 of 3",
+          "Step3Subtitle": "注意：（*）字段必须填写",
+          "Step4Title": "汽车详情 2 of 3",
+          "Step4Subtitle": "注意：（*）字段必须填写",
+          "Step5Title": "汽车详情 3 of 3",
+          "Step5Subtitle": "注意：（*）字段必须填写",
+          "Step6Title": "上传图片",
+          "Step6Subtitle": "切换到销售切换到销售:",
+          "Step8Title": "您正处于创建广告的最后一步。",
+          "ProceedBtn": "进行"
+      }
+  }
+}

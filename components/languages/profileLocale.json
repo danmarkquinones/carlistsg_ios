@@ -1,0 +1,106 @@
+{
+    "en" : {
+        "ProfileIndex":{
+            "ProfileInformation" : "Profile Informations",
+            "Edit" : "Edit",
+            "FullName" : "Full Name" , 
+            "MobileNumber" : "Mobile Number",
+            "SwitchToSelling" : "Switch To Selling",
+            "Buy":"Buy",
+            "Sell":"Sell",
+            "Notification" : "Notification",
+            "Language" : "Language",
+            "PPTOS" : "Privacy Policy & Terms of use",
+            "Help" : "Help & Feedback",
+            "Share" : "Share this App",
+            "Logout" : "logout",
+            "Version" : "version"
+        },
+        "NoAccess" : {
+            "Message" : "You don't have access to this feature, please login to continue.",
+            "ButtonText" : "Go to Login"
+            
+        },
+        "EditProfile":{
+            "Header" : "Kindly fill out the fields you want to edit.",
+            "FName" : "First Name",
+            "LName" : "Last Name",
+            "Mobile" : "Mobile Number",
+            "Save" : "save",
+            "Cancel":"cancel"
+        },
+        "PPTOS":{
+            "TOC" : "Terms & Conditions of Use",
+            "PP" : "Privacy Policy"
+        },
+        "Help":{
+            "Header" : "We are here to assist you",
+            "Body" : "If you required help with listings or have general enquiries , call or send us an email.",
+            "Call" : "Call Us",
+            "Email" : "Email Us"
+        },
+        "NotifModal":{
+            "Header" : "Get Notified!",
+            "Body" : "Allow Carlist.SG to send you push notifications when you have new messages & offers.",
+            "Okay" : "LET'S DO IT!",
+            "Cancel" : "No thanks , another time."
+        },
+        "NavStackHeaders":{
+            "EditProfile" : "Edit Profile Informations",
+            "PPTCOS" : "Privacy Policy & TCOS",
+            "Help" : "Help & Feedback"
+        }
+    },
+    "zh" : {
+        "ProfileIndex":{
+            "ProfileInformation" : "个人资料",
+            "Edit" : "编辑",
+            "FullName" : "全名" , 
+            "MobileNumber" : "手机号码",
+            "SwitchToSelling" : "切换到销售",
+            "Buy":"买",
+            "Sell":"卖",
+            "Notification" : "通知",
+            "Language" : "语",
+            "PPTOS" : "隐私政策和使用条款",
+            "Help" : "帮助与反馈",
+            "Share" : "分享这个应用程式",
+            "Logout" : "登出",
+            "Version" : "版本"
+        },
+        "NoAccess" : {
+            "Message" : "您无权使用此功能，请登录以继续.",
+            "ButtonText" : "去登录"
+            
+        },
+        "EditProfile":{
+            "Header" : "请填写您要编辑的字段.",
+            "FName" : "名",
+            "LName" : "姓",
+            "Mobile" : "手机号码",
+            "Save" : "保存",
+            "Cancel":"取消"
+        },
+        "PPTOS":{
+            "TOC" : "使用条款和条件",
+            "PP" : "隐私政策"
+        },
+        "Help":{
+            "Header" : "我们在这里为您提供帮助",
+            "Body" : "如果您需要有关列表的帮助或有一般查询，请致电或发送电子邮件给我们.",
+            "Call" : "致电我们",
+            "Email" : "给我们发电子邮件"
+        },
+        "NotifModal":{
+            "Header" : "得到通知!",
+            "Body" : "当您有新消息和优惠时，允许 Carlist.SG 向您发送推送通知.",
+            "Okay" : "我们开始做吧!",
+            "Cancel" : "不，谢谢，再来一次."
+        },
+        "NavStackHeaders":{
+            "EditProfile" : "编辑个人资料信息",
+            "PPTCOS" : "隐私政策和使用条款",
+            "Help" : "帮助与反馈"
+        }
+    }
+}

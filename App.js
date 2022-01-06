@@ -1,20 +1,53 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React , {useEffect} from 'react';
+import { StyleSheet , View , Text } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import NavigationIndex from './components/routes/NavigationIndex';
+import { UserConfigContextProvider } from './components/store/context_api/userContext';
+import { FilterConfigContextProvider } from './components/store/context_api/filterContext';
+import { ToastProvider } from 'react-native-toast-notifications'
+// import SplashScreen from 'react-native-splash-screen'
+import FeatherIcon from 'react-native-vector-icons/Feather';
+import MatIcon from 'react-native-vector-icons/MaterialIcons';
+import { theme } from './components/contants/colors';
+import {MenuProvider} from 'react-native-popup-menu';
+import {CarConfigContextProvider} from './components/store/context_api/carContext';
 
-export default function App() {
+const App = () => {
+  // useEffect(() => {
+  //   SplashScreen.hide();
+  // }, []);
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaProvider>
+      <FilterConfigContextProvider>
+        <CarConfigContextProvider>
+          <UserConfigContextProvider>
+            <MenuProvider>
+              <ToastProvider
+                duration={1000}
+                successIcon={
+                  <FeatherIcon
+                    name="check-circle"
+                    size={20}
+                    color={theme.white}
+                  />
+                }
+                dangerIcon={
+                  <MatIcon name="error-outline" size={20} color={theme.white} />
+                }
+                textStyle={{fontSize: 16}}>
+                <NavigationIndex />
+              </ToastProvider>
+            </MenuProvider>
+          </UserConfigContextProvider>
+        </CarConfigContextProvider>
+      </FilterConfigContextProvider>
+    </SafeAreaProvider>
   );
-}
+};
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+  
 });
+
+export default App;

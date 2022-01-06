@@ -1,0 +1,42 @@
+{
+    "en" : {
+        "StackNavHeader":{
+            "Favorites" : "Favorites"
+        },
+        "Tab":{
+            "SavedCars" : "Saved Cars",
+            "PinnedFilters" : "Pinned Filters"
+        },
+        "Dropdown":{
+            "PriceLowest" : "Price - Lowest",
+            "PriceHighest" : "Price - Highest"
+        },
+        "Cards" :{
+            "ButtonText" : "Contact Dealer"
+        },
+        "Fallbacks":{
+            "NoSavedCars" : "No saved car.",
+            "NoPinnedFilter" : "No pinned filter."
+        }
+    },
+    "zh" : {
+        "StackNavHeader":{
+            "Favorites" : "收藏夹"
+        },
+        "Tab":{
+            "SavedCars" : "保存的汽车",
+            "PinnedFilters" : "固定过滤器"
+        },
+        "Dropdown":{
+            "PriceLowest" : "价格 - 最低",
+            "PriceHighest" : "价格 - 最高"
+        },
+        "Cards" :{
+            "ButtonText" : "联系经销商"
+        },
+        "Fallbacks":{
+            "NoSavedCars" : "没有保存的汽车.",
+            "NoPinnedFilter" : "无固定过滤器."
+        }
+    }
+}

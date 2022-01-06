@@ -1,0 +1,54 @@
+{
+    "en" : {
+        "BuyerLanding":{
+            "Greeting" : {
+                "Header" : "Hello",
+                "WeHave" : "We have",
+                "CarsListed" : "cars listed."
+            },
+            "Search" : {
+                "InputPlaceholder":"Find your dream car now!"
+            },
+            "Categories" : {
+                "Favorite" : "Your Favorites",
+                "Qualified" : "Carlist Qualified",
+                "Popular" : "Popular Deals",
+                "New" : "New",
+                "Listings" : "Listings",
+                "TopSellers"  : "Top Sellers",
+                "TopLocations" : "Top Locations",
+                "SeeMore" : "See More"
+            }
+        },
+        "Fallbacks":{
+            "NoData":"There seems to be a problem getting your request, please try again later",
+            "NoFavorites":"You do not have saved cars in your list. You can add a favorite by clicking the star icon."
+        }
+    },
+    "zh" : {
+        "BuyerLanding":{
+            "Greeting" : {
+                "Header" : "你好",
+                "WeHave" : "我们有",
+                "CarsListed" : "汽车上市."
+            },
+            "Search" : {
+                "InputPlaceholder":"立即寻找您的梦想之车!"
+            },
+            "Categories" : {
+                "Favorite" : "您的最爱",
+                "Qualified" : "卡利斯特合格",
+                "Popular" : "热门优惠",
+                "New" : "新的",
+                "Listings" : "房源",
+                "TopSellers"  : "畅销品",
+                "TopLocations" : "热门地点",
+                "SeeMore" : "查看更多"
+            }
+        },
+        "Fallbacks":{
+            "NoData":"获取您的请求似乎有问题，请稍后重试",
+            "NoFavorites":"您的列表中没有保存的汽车. 您可以通过单击星形图标添加收藏夹"
+        }
+    }
+}

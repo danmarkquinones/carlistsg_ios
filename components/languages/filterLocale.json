@@ -1,0 +1,56 @@
+{
+    "en" : {
+        "StackNavHeader":{
+            "Search" : "Search / Filter"
+        },
+        "Labels" : {
+            "PriceRange" : "Price Range",
+            "ModelRange" : "Model Year Range",
+            "RegistrationRange" : "Registration Year Range",
+            "MileageRange" : "Mileage Range",
+            "ECRange" : "Engine Cap Range",
+            "OtherFilters" : "Other Filters"
+        },
+        "Placeholders" : {
+            "Keyword" : "Type a Keyword",
+            "Brand" : "Select car brand",
+            "Condition" : "Select car condition",
+            "Location" : "Select location",
+            "Transmission" : "Select transmission",
+            "BodyType" : "Select body type",
+            "Color" : "Select color",
+            "FuelType" : "Select fuel type"
+        },
+        "Buttons" : {
+            "Save" : "Save filter",
+            "Apply" : "Apply filter"
+        }
+    },
+    "zh" : {
+        "StackNavHeader":{
+            "Search" : "搜索 / 过滤"
+        },
+        "Labels" : {
+            "PriceRange" : "价格范围",
+            "ModelRange" : "车型年份范围",
+            "RegistrationRange" : "注册年份范围",
+            "MileageRange" : "里程范围",
+            "ECRange" : "发动机盖范围",
+            "OtherFilters" : "其他过滤器"
+        },
+        "Placeholders" : {
+            "Keyword" : "输入关键字",
+            "Brand" : "选择汽车品牌",
+            "Condition" : "选择车况",
+            "Location" : "选择位置",
+            "Transmission" : "选择传输",
+            "BodyType" : "选择体型",
+            "Color" : "选择颜色",
+            "FuelType" : "选择燃料类型"
+        },
+        "Buttons" : {
+            "Save" : "保存过滤器",
+            "Apply" : "应用过滤器"
+        }
+    }
+}

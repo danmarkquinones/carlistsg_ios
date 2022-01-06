@@ -1,0 +1,68 @@
+{
+    "en" : {
+        "SingleProductView":{
+            "ManufactureDate":"Mfr. Date",
+            "Mileage" : "Mileage",
+            "Transmission" : "Transmission",
+            "Engine" : "Engine Cap",
+            "Type" : "Type",
+            "Condition" : "Condition",
+            "Location" : "Location",
+            "NumberOfOwners":"No. of owners",
+            "COE" : "COE",
+            "ARF" :"ARF",
+            "OMV" : "OMV",
+            "Description":"Description",
+            "Features":"Features",
+            "Accessories":"Accessories",
+            "Reviews":"Car Reviews",
+            "AddYourReview":"Add your review to this car.",
+            "Comments":"Comment(s)",
+            "Similar":"Similar Cars",
+            "ContactDealer":"Contact Dealer"
+        },
+        "CommentForm":{
+            "HeaderAdd":"Add a Review",
+            "Rate":"Rating",
+            "Comment" : "Comment/Review",
+            "Hide":"Hide my name?",
+            "Fname" : "First Name",
+            "Lname":"Last Name",
+            "Submit" : "Submit",
+            "Cancel" : "Cancel"
+        }
+    },
+    "zh" : {
+        "SingleProductView":{
+            "ManufactureDate":"生产日期",
+            "Mileage" : "里程",
+            "Transmission" : "传播",
+            "Engine" : "发动机盖",
+            "Type" : "类型",
+            "Condition" : "状况",
+            "Location" : "地点",
+            "NumberOfOwners":"业主人数",
+            "COE" : "COE",
+            "ARF" :"ARF",
+            "OMV" : "OMV",
+            "Description":"描述",
+            "Features":"特征",
+            "Accessories":"配件",
+            "Reviews":"汽车评论",
+            "AddYourReview":"将您的评论添加到这辆车.",
+            "Comments":"评论",
+            "Similar":"同类车",
+            "ContactDealer":"联系经销商"
+        } ,
+        "CommentForm":{
+            "HeaderAdd":"添加评论",
+            "Rate":"评分",
+            "Comment" : "评论/评论",
+            "Hide":"隐藏我的名字?",
+            "Fname" : "名",
+            "Lname":"姓",
+            "Submit" : "提交",
+            "Cancel" : "取消"
+        }
+    }
+}
